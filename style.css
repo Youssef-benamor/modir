@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(14, 20, 20);
+  background: linear-gradient(skyblue, rgb(243, 85, 164));
+  background-repeat: no-repeat;
+}
+.odd {
+  color: #000000;
+  font-family: "press start 2p", "consolas", sans-serif;
+}
+
+.even {
+  color: #030303;
+  font-family: "press start 2p", "consolas" sans-serif;
+}
+h1 {
+  font-style: italic;
+  border-style: solid;
+  border-width: 0, 5cm;
+  border-right: 0, 0cm;
+  animation: myslide;
+  animation: 3s linear 0s infinite running mycolorchange;
+  width: fit-content;
+}
+
+@keyframes myslide {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+@keyframes mycolorchange {
+  20% {
+    background-color: rgb(228, 153, 13);
+  }
+  40% {
+    background-color: rgb(131, 131, 7);
+  }
+  60% {
+    background-color: rgb(68, 161, 68);
+  }
+  80% {
+    background-color: rgb(57, 57, 164);
+  }
+  80% {
+    background-color: rgba(230, 92, 230, 0.47);
+  }
+}

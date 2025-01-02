@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 220px;
+  justify-content: space-between;
+}
+.box {
+  height: 40px;
+  width: 40px;
+  font-size: 20pt;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: -1px 1px 24px -2px rgba(0, 0, 0, 0.75);
+  background-color: aliceblue;
+}
+
+#dod {
+  background-color: aqua;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 200;
+  gap: 10px;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button:active {
+  background-color: aquamarine;
+}
+button:hover {
+  background-color: aliceblue;
+  opacity: 0.8;
+  transform: scale(1.025);
+}
